@@ -16,6 +16,14 @@
 // we need package.json because whatever package you install
 // will be stored as a dependency in the package.json file
 
+// so for example you push the project to github without the 
+// node modules folder, even without the node modules files,
+// all you have to do is npm install and the node will install
+// the needed modules because of the package.json file
+
+// you normally do not share the node modules folder because of
+// the size, so you just need the package.json
+
 // install npm package first before importing
 const _ = require('lodash');
 
